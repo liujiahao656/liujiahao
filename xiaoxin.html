@@ -104,14 +104,24 @@
             font-size: 46px;
             color: #ea80b0;
         }
+        .mz{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: -20px;
+            font-size: 46px;
+            color: #ea80b0;
+        }
     </style>
 </head>
 <body>
 <canvas id="pinkboard" width="1920" height="947"></canvas>
+<div class="mz">名字</div>//要改的名字
 <canvas id="canvas" width="1920" height="947"></canvas>
  
 <script type="text/javascript">
-    var loverName = "画不完的圆"  // ��要更改的名字
+    var loverName = "我爱你"  //   要更改的弹幕
     const colors = [
         "#eec996",
         "#8fb7d3",
@@ -131,7 +141,7 @@
         "#e8c6c0",
         "#dc9898",
         "#ecc8ba",
-    ]; //用来设置的颜��    var canvas = document.getElementById("canvas");
+    ]; //用来设置的颜      var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
     let count = 1;
  
